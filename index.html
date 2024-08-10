@@ -1,103 +1,135 @@
 <!doctype html>
 <html>
   <head>
-    <title>Application Form</title>
+    <title>Survey Form</title>
   </head>
 
-  <body>
-    <h1 align="center">Application Form</h1>
-    <form>
-      <table align="center" cellpadding="8" width="60%">
+  <body bgcolor="#fbf9f7">
+    <h1 align="center">Custormer Survey</h1>
+    <font size="0.7">
+      <table width="87%" align="center">
         <tr>
-          <td>Full Name:</td>
           <td>
-            <input type="text" name="fullname" required />
-          </td>
-        </tr>
-        <tr>
-          <td>Date of Birth:</td>
-          <td>
-            <input type="date" name="dob" />
-          </td>
-        </tr>
-        <tr>
-          <td>Email:</td>
-          <td>
-            <input type="email" name="email" required />
-          </td>
-        </tr>
-        <tr>
-          <td>Phone No:</td>
-          <td>
-            <input type="tel" name="phno" />
-          </td>
-        </tr>
-        <tr>
-          <td>Address:</td>
-          <td>
-            <input type="text" name="addr" />
-          </td>
-        </tr>
-        <tr>
-          <td>Highest Qualification:</td>
-          <td>
-            <select name="qual">
-              <option>Basic Education</option>
-              <option>High School</option>
-              <option>Graduation</option>
-              <option>Post Graduation</option>
-            </select>
-          </td>
-        </tr>
-        <tr>
-          <td>Institution Name:</td>
-          <td>
-            <input type="text" name="inst" />
-          </td>
-        </tr>
-        <tr>
-          <td>Year of Graduation(if done):</td>
-          <td>
-            <input type="number" name="yeargrad" />
-          </td>
-        </tr>
-        <tr>
-          <td>Specialization:</td>
-          <td>
-            <input type="text" name="specialization" />
-          </td>
-        </tr>
-        <tr>
-          <td>Work Experience:</td>
-          <td>
-            <input type="text" name="exp" />
-          </td>
-        </tr>
-        <tr>
-          <td>Skills:</td>
-          <td>
-            <input type="text" name="skills" />
-          </td>
-        </tr>
-        <tr>
-          <td>Preferred Location:</td>
-          <td>
-            <input type="text" name="locpref" />
-          </td>
-        </tr>
-        <tr>
-          <td>Availability:</td>
-          <td>
-            <input type="time" name="avaitime" />
-          </td>
-        </tr>
-        <tr>
-          <td colspan="2" align="center">
-            <br />
-            <input type="submit" value="Submit" />
+            <p align="center">
+              Thank you for shopping with us! Please rate us so we can server
+              you better.
+            </p>
           </td>
         </tr>
       </table>
-    </form>
+      <hr width="87%" />
+      <br />
+      <form method="post">
+        <table align="center" cellpadding="8" width="87%">
+          <tr>
+            <td width="40%"></td>
+            <td width="12%">Very Bad</td>
+            <td width="12%">Bad</td>
+            <td width="12%">Neutral</td>
+            <td width="12%">Good</td>
+            <td width="12%">Excellent</td>
+          </tr>
+
+          <tr>
+            <td>Facilities :</td>
+            <td>
+              <input type="radio" name="q1" />
+            </td>
+            <td>
+              <input type="radio" name="q1" />
+            </td>
+            <td>
+              <input type="radio" name="q1" />
+            </td>
+            <td>
+              <input type="radio" name="q1" />
+            </td>
+            <td>
+              <input type="radio" name="q1" />
+            </td>
+          </tr>
+          <tr>
+            <td>Service :</td>
+            <td>
+              <input type="radio" name="q2" />
+            </td>
+            <td>
+              <input type="radio" name="q2" />
+            </td>
+            <td>
+              <input type="radio" name="q2" />
+            </td>
+            <td>
+              <input type="radio" name="q2" />
+            </td>
+            <td>
+              <input type="radio" name="q2" />
+            </td>
+          </tr>
+          <tr>
+            <td>Quality :</td>
+            <td>
+              <input type="radio" name="q3" />
+            </td>
+            <td>
+              <input type="radio" name="q3" />
+            </td>
+            <td>
+              <input type="radio" name="q3" />
+            </td>
+            <td>
+              <input type="radio" name="q3" />
+            </td>
+            <td>
+              <input type="radio" name="q3" />
+            </td>
+          </tr>
+          <tr>
+            <td>Recommend</td>
+            <td>
+              <input type="radio" name="q4" />
+            </td>
+            <td>
+              <input type="radio" name="q4" />
+            </td>
+            <td>
+              <input type="radio" name="q4" />
+            </td>
+            <td>
+              <input type="radio" name="q4" />
+            </td>
+            <td>
+              <input type="radio" name="q4" />
+            </td>
+          </tr>
+        </table>
+        <br />
+        <br />
+        <hr width="87%" />
+        <br />
+        <table width="87%" align="center">
+          <tr>
+            <td>
+              <p>How else can we improve?</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <textarea rows="2" cols="87%"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td align="center">
+              <br />
+              <br />
+              <input type="submit" value="Submit" align="center" />
+            </td>
+          </tr>
+        </table>
+        <br />
+        <br />
+        <hr width="87%" />
+      </form>
+    </font>
   </body>
 </html>
