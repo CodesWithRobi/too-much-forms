@@ -1,145 +1,25 @@
 <!doctype html>
+<!doctype html>
 <html>
-  <head>
-    <title>Survey Form</title>
-  </head>
+  <head> </head>
 
-  <body bgcolor="#fbf9f7">
-    <h1 align="center">Customer Survey</h1>
-    <font size="0.7">
-      <table width="87%" align="center">
-        <tr>
-          <td>
-            <p align="center">
-              Thank you for shopping with us! Please rate us so we can server
-              you better.
-            </p>
-          </td>
-        </tr>
-      </table>
-      <hr width="87%" />
-      <br />
-      <form method="post">
-        <table
-          align="center"
-          cellpadding="10"
-          width="87%"
-          border="1 solid black"
-          cellspacing="0"
-        >
-          <tr>
-            <td width="40%">
-              <b>Feedback</b>
-            </td>
-            <td width="12%">Very Bad</td>
-            <td width="12%">Bad</td>
-            <td width="12%">Neutral</td>
-            <td width="12%">Good</td>
-            <td width="12%">Excellent</td>
-          </tr>
-
-          <tr>
-            <td>Facilities :</td>
-            <td>
-              <input type="radio" name="q1" />
-            </td>
-            <td>
-              <input type="radio" name="q1" />
-            </td>
-            <td>
-              <input type="radio" name="q1" />
-            </td>
-            <td>
-              <input type="radio" name="q1" />
-            </td>
-            <td>
-              <input type="radio" name="q1" />
-            </td>
-          </tr>
-          <tr>
-            <td>Service :</td>
-            <td>
-              <input type="radio" name="q2" />
-            </td>
-            <td>
-              <input type="radio" name="q2" />
-            </td>
-            <td>
-              <input type="radio" name="q2" />
-            </td>
-            <td>
-              <input type="radio" name="q2" />
-            </td>
-            <td>
-              <input type="radio" name="q2" />
-            </td>
-          </tr>
-          <tr>
-            <td>Quality :</td>
-            <td>
-              <input type="radio" name="q3" />
-            </td>
-            <td>
-              <input type="radio" name="q3" />
-            </td>
-            <td>
-              <input type="radio" name="q3" />
-            </td>
-            <td>
-              <input type="radio" name="q3" />
-            </td>
-            <td>
-              <input type="radio" name="q3" />
-            </td>
-          </tr>
-          <tr>
-            <td>Overall :</td>
-            <td>
-              <input type="radio" name="q4" />
-            </td>
-            <td>
-              <input type="radio" name="q4" />
-            </td>
-            <td>
-              <input type="radio" name="q4" />
-            </td>
-            <td>
-              <input type="radio" name="q4" />
-            </td>
-            <td>
-              <input type="radio" name="q4" />
-            </td>
-          </tr>
-        </table>
-        <br />
-        <br />
-        <hr width="87%" />
-        <br />
-        <table width="87%" align="center">
-          <tr>
-            <td>
-              <p>How else can we improve?</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <bgcolor>
-                <textarea rows="2" cols="55"></textarea>
-              </bgcolor>
-            </td>
-          </tr>
-          <tr>
-            <td align="center">
-              <br />
-              <br />
-              <input type="submit" value="Submit" align="center" />
-            </td>
-          </tr>
-        </table>
-        <br />
-        <br />
-        <hr width="87%" />
-      </form>
-    </font>
+  <body>
+    <!-- <form> -->
+    <!--   <select> -->
+    <!--     <option value="vanakam"><a href="forms/survey.html">Hello</a></option> -->
+    <!--   </select> -->
+    <!-- </form> -->
+    <form
+      method="get"
+      action=""
+      onsubmit="window.location.href=this.querySelector('select').value;return false;"
+    >
+      <label for="forms">Choose a form:</label>
+      <select name="forms" onchange="window.location.href=this.value;">
+        <option value="" disabled selected>Select a form</option>
+        <option value="forms/application.html">Application Form</option>
+        <option value="forms/survey.html">Survey Form</option>
+      </select>
+    </form>
   </body>
 </html>
