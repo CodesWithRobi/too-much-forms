@@ -1,25 +1,30 @@
 <!doctype html>
-<!doctype html>
 <html>
-  <head> </head>
+  <head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-  <body>
-    <!-- <form> -->
-    <!--   <select> -->
-    <!--     <option value="vanakam"><a href="forms/survey.html">Hello</a></option> -->
-    <!--   </select> -->
-    <!-- </form> -->
-    <form
-      method="get"
-      action=""
-      onsubmit="window.location.href=this.querySelector('select').value;return false;"
-    >
-      <label for="forms">Choose a form:</label>
-      <select name="forms" onchange="window.location.href=this.value;">
-        <option value="" disabled selected>Select a form</option>
-        <option value="forms/application.html">Application Form</option>
-        <option value="forms/survey.html">Survey Form</option>
-      </select>
-    </form>
+  <body bgcolor="orange">
+    <table width="80%" align="center" cellspacing="0" cellpadding="20">
+      <tbody>
+        <form>
+          <tr>
+            <td align="center" colspan="2">
+              <h3>Registration Form</h3>
+              <p>Fill out the form carefully for registration</p>
+            </td>
+          </tr>
+          <tr>
+            <td>Student Name:</td>
+          </tr>
+          <tr>
+            <td>
+              <input name="fname" type="text" />
+            </td>
+          </tr>
+        </form>
+      </tbody>
+    </table>
   </body>
 </html>
