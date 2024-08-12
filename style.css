@@ -1,4 +1,43 @@
+html {
+  height: 100vh;
+}
+
+body {
+  background: radial-gradient(#ffb03c, #ff6c0d);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 table {
   background-color: white;
-  border-radius: 8%;
+  border-radius: 6%;
+}
+
+.bold {
+  font-weight: 600;
+  padding-bottom: 2%;
+}
+
+.thin {
+  color: #505050;
+  font-size: 65%;
+  padding-top: 1%;
+  padding-bottom: 1rem;
+}
+
+input,
+select {
+  border-width: 0px 0px 3px 0px;
+  padding: 6px;
+  width: 80%;
+  border-color: #ff6c0d;
+  background-color: white;
+  outline: none;
+}
+
+button {
+  color: white;
+  background-color: #18bd5b;
+  border: 1px transparent;
+  border-radius: 3px;
+  padding: 10px 2rem 10px 2rem;
 }
