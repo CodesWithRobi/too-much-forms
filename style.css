@@ -37,6 +37,7 @@ select {
   border-color: #ff6c0d;
   background-color: white;
   outline: none;
+  transition: 0.2s;
 }
 
 button {
@@ -45,9 +46,16 @@ button {
   border: 1px transparent;
   border-radius: 3px;
   padding: 10px 2rem 10px 2rem;
+  transition: 0.5s;
 }
 
 button:hover {
   background-color: #118d2b;
+  padding: 10px 3rem 10px 3rem;
   cursor: pointer;
+}
+
+input:hover,
+select:hover {
+  width: 88%;
 }
