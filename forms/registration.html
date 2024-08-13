@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="styles/registration.css" />
+</head>
+
+<body>
+  <br />
+  <table max-width="80%" cellspacing="0" cellpadding="0" style="padding: 2rem;">
+    <tbody>
+      <form>
+        <tr>
+          <td align="center" colspan="3">
+            <p style="font-weight: bolder; font-size: 2rem;margin-bottom: 0;">Registration Form</p>
+            <p>Fill out the form carefully for registration</p>
+            <br />
+          </td>
+        </tr>
+        <tr>
+          <td class="bold">Student Name:</td>
+        </tr>
+        <tr>
+          <td width="50%">
+            <input name="fname" type="text" class="text" />
+          </td>
+          <td width="50%">
+            <input type="text" name="lname" />
+          </td>
+        </tr>
+        <tr>
+          <td class="thin">First Name</td>
+          <td class="thin">Last Name</td>
+        </tr>
+
+        <tr>
+          <td class="bold">Sex</td>
+          <td class="bold">Student E-mail</td>
+        </tr>
+        <tr>
+          <td>
+            <select name="sex">
+              <option disabled selected>Please Select</option>
+              <option>Male</option>
+              <option>Female</option>
+            </select>
+          </td>
+          <td>
+            <input name="email" type="email" placeholder="ex: xyz@example.com" </td>
+        <tr>
+          <td></td>
+          <td class="thin">example@example.com</td>
+        </tr>
+        </tr>
+        <tr>
+          <td class="bold">Sudent ID</td>
+          <td class="bold">Phone Number</td>
+        </tr>
+        <tr>
+          <td>
+            <input type="text" name="sid">
+          </td>
+          <td>
+            <input name="pno" type="number">
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3" align="center">
+            <br>
+            <br>
+            <button type="submit">Submit</button>
+          </td>
+        </tr>
+      </form>
+    </tbody>
+  </table>
+</body>
+
+</html>
