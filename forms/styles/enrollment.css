@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #8da493;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h1,
+h3,
+p,
+hr {
+  margin: -4px;
+}
+
+.main {
+  width: 90vw;
+  margin: 10vh auto;
+  background-color: #f4ece5;
+}
+
+h1 {
+  padding: 0 2vw;
+  font-size: 5vw;
+  text-align: center;
+  padding-top: 6vw;
+}
+
+h3 {
+  font-size: 2vw;
+}
+
+.query {
+  width: 94%;
+  margin: 0 auto;
+}
+
+p {
+  width: 23%;
+  font-size: 1.5vw;
+  display: inline-block;
+}
+
+input {
+  width: 77%;
+  height: 4vw;
+  margin: 2vw -4px 0;
+  border: 3px solid black;
+  outline: none;
+  background-color: transparent;
+  font-size: 1.5vw;
+}
