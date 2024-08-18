@@ -1,7 +1,23 @@
 <!doctype html>
 <!doctype html>
 <html>
-  <head> </head>
+  <head>
+    <title>Forms</title>
+    <style>
+      .main {
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        margin: 20vh auto;
+        text-align: center;
+      }
+
+      select {
+        font-size: 1.5rem;
+        border-radius: 1rem;
+      }
+    </style>
+  </head>
 
   <body>
     <!-- <form> -->
@@ -9,19 +25,21 @@
     <!--     <option value="vanakam"><a href="forms/survey.html">Hello</a></option> -->
     <!--   </select> -->
     <!-- </form> -->
-    <form
-      method="get"
-      action=""
-      onsubmit="window.location.href=this.querySelector('select').value;return false;"
-    >
-      <label for="forms">Choose a form:</label>
-      <select name="forms" onchange="window.location.href=this.value;">
-        <option value="" disabled selected>Select a form</option>
-        <option value="forms/application.html">Application Form</option>
-        <option value="forms/survey.html">Survey Form</option>
-        <option value="forms/registration.html">Registration Form</option>
-        <option value="forms/login.html">Login Form</option>
-      </select>
-    </form>
+    <div class="main">
+      <form
+        method="get"
+        action=""
+        onsubmit="window.location.href=this.querySelector('select').value;return false;"
+      >
+        <label for="forms" style="display: block">Choose a form:</label>
+        <select name="forms" onchange="window.location.href=this.value;">
+          <option value="" disabled selected>Select a form</option>
+          <option value="forms/application.html">Application Form</option>
+          <option value="forms/survey.html">Survey Form</option>
+          <option value="forms/registration.html">Registration Form</option>
+          <option value="forms/login.html">Login Form</option>
+        </select>
+      </form>
+    </div>
   </body>
 </html>
