@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f1f9;
+  font-family: "Google Sans", roboto, "Noto Sans Myanmar UI", arial, sans-serif;
+  color: black;
+}
+
+.background {
+  background-color: white;
+  width: 80vw;
+  border-radius: 2rem;
+  margin: 25vh auto;
+  padding: calc(2rem + 2vw);
+}
+
+.intro {
+  vertical-align: top;
+  display: inline-block;
+  width: 50%;
+}
+
+.main {
+  display: inline-block;
+  margin: -4px;
+  width: 50%;
+}
+
+.main input {
+  width: 100%;
+  height: 3rem;
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+}
+
+.main a {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 4vh;
+}
+
+.main p {
+  display: inline-block;
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.butn {
+  text-align: right;
+}
+
+.butn button {
+  color: white;
+  margin: 0 0.4rem;
+  background-color: #0b57d0;
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #0b57d0;
+  border-radius: 10rem;
+}
+
+#create-btn {
+  background-color: transparent;
+  border-color: white;
+  color: #0b57d0;
+}
+
+a:visited {
+  color: #0b57d0;
+}
