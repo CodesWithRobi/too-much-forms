@@ -72,14 +72,14 @@ TAGS Classification
             form body
 
     Forms
-        - Application
-        - Survey
-        - Registration
-        - Login
-        - Feedback
-        - Enrollment
-        - Verification
-        - Request
+        x Application
+        x Survey
+        x Registration
+        x Login
+        x Feedback
+        x Enrollment
+        x Verification
+        x Request
         - Quiz
         - Profile
         - Newsletter
