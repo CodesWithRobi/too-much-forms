@@ -1,139 +1,142 @@
 <!doctype html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Quiz Form</title>
-    <style>
-      body {
-        font-family: "Times New Roman", Times, serif;
-        background-color: #202;
-        color: white;
-      }
-
-      form {
-        padding: 1rem;
-      }
-
-      input,
-      select,
-      button {
-        margin-left: 1vw;
-        border: 2px solid white;
-        color: white;
-        padding: 0.3rem;
-        outline: none;
-        background-color: transparent;
-        transition: 0.1s;
-      }
-
-      input:hover,
-      select:hover,
-      button:hover {
-        background-color: #101;
-        padding: 0.4rem;
-      }
-
-      br {
-        margin: 0.5rem;
-      }
-    </style>
   </head>
 
-  <body>
-    <h1 style="text-align: center">Quiz Form</h1>
-    <form>
-      <!-- Personal Information -->
-      <label for="firstName">First Name:</label>
-      <input type="text" id="firstName" name="firstName" required /><br />
+  <body bgcolor="#fbf9f7">
+    <h1 align="center">Quiz Survey</h1>
+    <font size="0.7">
+      <table width="87%" align="center">
+        <tr>
+          <td>
+            <p align="center">Answer by choosing the correct options.</p>
+          </td>
+        </tr>
+      </table>
+      <hr width="87%" />
+      <br />
+      <form method="post">
+        <table
+          align="center"
+          cellpadding="10"
+          width="87%"
+          border="1 solid black"
+          cellspacing="0"
+        >
+          <tr>
+            <td width="40%">
+              <b>Answers</b>
+            </td>
+            <td width="12%">Option A</td>
+            <td width="12%">Option B</td>
+            <td width="12%">Option C</td>
+            <td width="12%">Option D</td>
+            <td width="12%">Option E</td>
+          </tr>
 
-      <label for="lastName">Last Name:</label>
-      <input type="text" id="lastName" name="lastName" required /><br />
-
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required /><br />
-
-      <label for="phone">Phone Number:</label>
-      <input type="tel" id="phone" name="phone" required /><br />
-
-      <!-- Address -->
-      <label for="address">Address:</label><br />
-      <input
-        type="text"
-        id="street"
-        name="street"
-        placeholder="Street Address"
-        required
-      /><br />
-      <input
-        type="text"
-        id="city"
-        name="city"
-        placeholder="City"
-        required
-      /><br />
-      <input
-        type="text"
-        id="state"
-        name="state"
-        placeholder="State/Province"
-        required
-      /><br />
-      <input
-        type="text"
-        id="zip"
-        name="zip"
-        placeholder="Zip/Postal Code"
-        required
-      /><br />
-      <input
-        type="text"
-        id="country"
-        name="country"
-        placeholder="Country"
-        required
-      /><br />
-
-      <!-- Identification -->
-      <label for="idNumber">ID Number:</label>
-      <input type="text" id="idNumber" name="idNumber" required /><br />
-
-      <label for="dob">Date of Birth:</label>
-      <input type="date" id="dob" name="dob" required /><br />
-
-      <!-- Generic Dropdown -->
-      <label for="category">Category:</label>
-      <select id="category" name="category" required>
-        <option value="option1">Option 1</option>
-        <option value="option2">Option 2</option>
-        <option value="option3">Option 3</option></select
-      ><br />
-
-      <!-- Payment Information -->
-      <label for="paymentMethod">Payment Method:</label>
-      <select id="paymentMethod" name="paymentMethod" required>
-        <option value="creditCard">Credit Card</option>
-        <option value="debitCard">Debit Card</option>
-        <option value="paypal">PayPal</option></select
-      ><br />
-
-      <label for="cardNumber">Card Number:</label>
-      <input type="text" id="cardNumber" name="cardNumber" required /><br />
-
-      <label for="expiryDate">Expiry Date:</label>
-      <input type="month" id="expiryDate" name="expiryDate" required /><br />
-
-      <label for="cvv">CVV:</label>
-      <input type="text" id="cvv" name="cvv" required /><br />
-
-      <!-- Agreement -->
-      <label>
-        <input type="checkbox" name="agreement" required />
-        I agree to the terms and conditions. </label
-      ><br />
-
-      <!-- Submit Button -->
-      <button type="submit">Submit</button>
-    </form>
+          <tr>
+            <td>Question 1:</td>
+            <td>
+              <input type="radio" name="q1" />
+            </td>
+            <td>
+              <input type="radio" name="q1" />
+            </td>
+            <td>
+              <input type="radio" name="q1" />
+            </td>
+            <td>
+              <input type="radio" name="q1" />
+            </td>
+            <td>
+              <input type="radio" name="q1" />
+            </td>
+          </tr>
+          <tr>
+            <td>Question 2:</td>
+            <td>
+              <input type="radio" name="q2" />
+            </td>
+            <td>
+              <input type="radio" name="q2" />
+            </td>
+            <td>
+              <input type="radio" name="q2" />
+            </td>
+            <td>
+              <input type="radio" name="q2" />
+            </td>
+            <td>
+              <input type="radio" name="q2" />
+            </td>
+          </tr>
+          <tr>
+            <td>Question 3:</td>
+            <td>
+              <input type="radio" name="q3" />
+            </td>
+            <td>
+              <input type="radio" name="q3" />
+            </td>
+            <td>
+              <input type="radio" name="q3" />
+            </td>
+            <td>
+              <input type="radio" name="q3" />
+            </td>
+            <td>
+              <input type="radio" name="q3" />
+            </td>
+          </tr>
+          <tr>
+            <td>Question 4:</td>
+            <td>
+              <input type="radio" name="q4" />
+            </td>
+            <td>
+              <input type="radio" name="q4" />
+            </td>
+            <td>
+              <input type="radio" name="q4" />
+            </td>
+            <td>
+              <input type="radio" name="q4" />
+            </td>
+            <td>
+              <input type="radio" name="q4" />
+            </td>
+          </tr>
+        </table>
+        <br />
+        <br />
+        <hr width="87%" />
+        <br />
+        <table width="87%" align="center">
+          <tr>
+            <td>
+              <p>How else can we improve?</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <bgcolor>
+                <textarea rows="2" cols="55"></textarea>
+              </bgcolor>
+            </td>
+          </tr>
+          <tr>
+            <td align="center">
+              <br />
+              <br />
+              <input type="submit" value="Submit" align="center" />
+            </td>
+          </tr>
+        </table>
+        <br />
+        <br />
+        <hr width="87%" />
+      </form>
+    </font>
   </body>
 </html>
